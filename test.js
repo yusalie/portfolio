@@ -10,7 +10,7 @@ function showTest(t) {
   var y = document.getElementsByClassName("testSlide");
   if (t > y.length) {slideT = 1}
   if (t < 1) {slideT = y.length}
-  for (j = 0; j < x.length; j++) {
+  for (j = 0; j < y.length; j++) {
     y[j].style.display = "none";
   }
   y[slideT-1].style.display = "block";
