@@ -1,0 +1,257 @@
+.language {
+    color: #000!important;
+    background-color: #f1f1f1!important
+}
+
+.bar_en{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+  height: 24px;
+  animation: en;
+  animation-duration: 4s;
+}
+
+.bar_jp{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 45%;
+  height: 24px;
+  animation: jp;
+  animation-duration: 8s;
+}
+
+.bar_afr{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 90%;
+  height: 24px;
+  animation: af;
+  animation-duration: 6s;
+}
+
+
+img{
+  width:600px;
+  height: 600px;
+  object-fit: cover;
+}
+
+html{
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
+body{
+  margin-left: 120px;
+  margin-right: 120px;
+  background-image: linear-gradient(to bottom, black , grey);
+}
+
+.zoe, .shane{
+  width: 200px;
+  float: left;
+  padding: 5px;
+}
+
+.arrow{
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  font-size: 25px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: cursive;
+}
+#calc, #weather, #mp3, #lotto, #jp{
+    width: 150px;
+    height: 150px;
+    border-radius: 500000px;
+    float: left;
+    padding: 5px;
+}
+
+.c_bar{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 30%;
+  height: 24px;
+  animation: c;
+  animation-duration: 10s;
+}
+.js_bar{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 50%;
+  height: 24px;
+  animation: js;
+  animation-duration: 8s;
+}
+.css_bar{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 75%;
+  height: 24px;
+  animation: css;
+  animation-duration: 6s;
+}
+.html_bar{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 80%;
+  height: 24px;
+  animation: html;
+  animation-duration: 4s;
+}
+.py_bar{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  width: 95%;
+  height: 24px;
+  animation: py;
+  animation-duration: 2s;
+}
+
+.zoe_pic{
+  width: 290px;
+  height: 328px;
+}
+
+.fab{
+  font-size: 50px;
+  color: black;
+}
+
+.fab:hover{
+  color: blue;
+  font-size: 60px;
+}
+
+@keyframes en {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 100%
+  }
+}
+
+@keyframes af {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 90%
+  }
+}
+
+@keyframes jp {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 45%
+  }
+}
+
+@keyframes py {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 95%
+  }
+}
+
+@keyframes html {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 80%
+  }
+}
+
+@keyframes css {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 75%
+  }
+}
+
+@keyframes js {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 50%
+  }
+}
+@keyframes c {
+  0%   {
+    background-color: red; width: 0%
+  }
+  100% {
+    background-color: blue; width: 30%
+  }
+}
+
+.arrowLeft{
+  position: absolute;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 90px;
+  right: 73%;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  opacity: 50%;
+  margin-top: -281px;
+  float: left;
+  padding: 5px;
+}
+.arrowRight{
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 90px;
+  left: 54%;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  opacity: 50%;
+  margin-top: -281px;
+  width: 200px;
+  float: right;
+  padding: 5px;
+}
+
+.arrowRight:hover{
+  color: black;
+  opacity: 1;
+}
+
+.arrowLeft:hover{
+  color: black;
+  opacity: 1;
+}
+
+#mail a{
+  color: black;
+  text-decoration: none;
+}
+
+#mail a:hover{
+  color: blue;
+}
