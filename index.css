@@ -257,6 +257,7 @@ body{
   margin-top: -281px;
   float: left;
   padding: 5px;
+  outline: none;
 }
 .arrowRight{
   position: absolute;
@@ -273,6 +274,7 @@ body{
   width: 200px;
   float: right;
   padding: 5px;
+  outline: none;
 }
 
 .arrowRight:hover{
@@ -300,12 +302,14 @@ body{
   border-color: transparent;
   font-size: 40px;
   float: right;
+  outline: none;
 }
 ..arrowLeft{
   background-color: transparent;
   border-color: transparent;
   font-size: 40px;
   float: left;
+  outline: none;
 }
 
 .slides{
@@ -326,7 +330,7 @@ body{
     margin-left: 120px;
     margin-right: 120px;
     margin-top: -38px;
-    background-image: linear-gradient(to bottom, black , grey);
+    background-image: white;
     height: 100%;
   }
   img{
@@ -358,6 +362,7 @@ body{
     margin-right: 0px;
     font-family: cursive;
     text-align: left;
+    outline: none;
   }
 
   .arrowR{
@@ -369,6 +374,7 @@ body{
     margin-right: -140px;
     font-family: cursive;
     text-align: right;
+    outline: none;
   }
   /* .zoe, .shane, .thapelo{
     width: 153px;
@@ -448,6 +454,7 @@ body{
   margin-top: -167px;
   float: left;
   padding: 5px;
+  outline: none;
 }
 .arrowRight{
   position: absolute;
@@ -464,6 +471,7 @@ body{
   width: 200px;
   float: right;
   padding: 5px;
+  outline: none;
 }
 .fab{
   font-size: 40px;
@@ -481,38 +489,39 @@ body{
     margin-left: 120px;
     margin-right: 120px;
     margin-top: -38px;
-    background-image: linear-gradient(to bottom, black , grey);
-    height: 100%;
+    height: 115%;
   }
   img{
     width: 198px;
     height: 200px;
     object-fit: cover;
   }
-  html{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 100%;
-    height: 100%
-  }
+  html {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+	height: 126%;
+}
   #calc, #weather, #mp3, #lotto, #jp{
     float: left;
     padding: 5px;
     border-radius: 100%;
     display: flex;
-    width: 90px;
-    height: 90px;
+    width: 44px;
+    height: 41px;
+    overflow-y: hidden;
   }
   .arrowL{
     background: transparent;
     border-color: transparent;
     color: black;
     font-size: 20px;
-    margin-left: -272px;
+    margin-left: -123px;
     margin-right: 0px;
     font-family: cursive;
     text-align: left;
+    outline: none;
   }
 
   .arrowR{
@@ -520,10 +529,11 @@ body{
     border-color: transparent;
     color: black;
     font-size: 20px;
-    margin-left: 161px;
+    margin-left: 301px;
     margin-right: -140px;
     font-family: cursive;
     text-align: right;
+    outline: none;
   }
   .zoe, .shane, .thapelo{
     width: 156px;
@@ -534,7 +544,7 @@ body{
   }
   .zoe_pic{
     width: 115px;
-    height: 114px;
+    height: 100%;
     overflow: scroll;
     padding-left: 40px;
   }
@@ -646,7 +656,13 @@ body{
   opacity: 1;
   font-size: 61px;
 }
-.Projects{
-  overflow-x: scroll;
+.Proj{
+  overflow-y: hidden;
+  height: 56px;
+}
+.buttons {
+	display: inline;
+	padding-left: 30px;
+}
 }
 }
