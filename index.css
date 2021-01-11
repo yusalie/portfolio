@@ -642,7 +642,6 @@ background-color: skyblue;
 
 .fab:hover{
   color: blue;
-  font-size: 50px;
 }
 #p{
   font-size: 10px;
@@ -779,18 +778,6 @@ background-color: skyblue;
 	
 }
 
-
-.arrowRight:hover{
-  color: black;
-  opacity: 1;
-  font-size: 61px;
-}
-
-.arrowLeft:hover{
-  color: black;
-  opacity: 1;
-  font-size: 61px;
-}
 .Proj{
   overflow-y: hidden;
   width: 157%;
