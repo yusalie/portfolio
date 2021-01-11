@@ -683,6 +683,102 @@ background-color: skyblue;
 	font-size:10px;
 }
 
+	@keyframes en {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 100%
+  }
+}
+
+@keyframes af {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 90%
+  }
+}
+
+@keyframes jp {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 45%
+  }
+}
+
+@keyframes py {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 95%
+  }
+}
+
+@keyframes html {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 80%
+  }
+}
+
+@keyframes css {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 75%
+  }
+}
+
+@keyframes js {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 50%
+  }
+}
+@keyframes c {
+  0%   {
+    background-color: red; width: 0%
+  }
+  50% {
+    background-color: orange; 
+  }
+	100%{
+	background-color: green; width: 30%
+	}
+	
+}
+
 
 .arrowRight:hover{
   color: black;
