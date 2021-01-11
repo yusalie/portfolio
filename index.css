@@ -793,7 +793,7 @@ background-color: skyblue;
 }
 .Proj{
   overflow-y: hidden;
-  height: 56px;
+  width: 157%;
 }
 .buttons {
 	display: inline;
