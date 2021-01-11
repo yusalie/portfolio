@@ -560,9 +560,10 @@ background-color: skyblue;
   background-color: blue;
   text-align: center;
   width: 30%;
-  height: 20px;
+  height: 11px;
   animation: c;
   animation-duration: 10s;
+	font-size:10px;
 }
 .js_bar{
   color: white;
