@@ -797,7 +797,8 @@ background-color: skyblue;
 }
 .buttons {
 	display: inline;
-	padding-left: 0px;
+	    padding-left: 25%;
+    padding-right: 8%;
 }
 }
 }
