@@ -480,7 +480,7 @@ background-color: skyblue;
 }
 @media only screen and (max-width: 500px){
 	p{
-		font-size:9px;
+		font-size:8px;
 	}
     body {
     margin-left: 120px;
