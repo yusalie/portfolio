@@ -508,8 +508,8 @@ background-color: skyblue;
     padding: 5px;
     border-radius: 100%;
     display: flex;
-    width: 10px;
-    height: 10px;
+    width: 70px;
+    height: 70px;
     overflow-y: hidden;
   }
   .arrowL{
