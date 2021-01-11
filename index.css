@@ -516,11 +516,11 @@ background-color: skyblue;
     background: transparent;
     border-color: transparent;
     color: black;
-    font-size: 20px;
-    margin-left: -123px;
+    font-size: 14px;
+    margin-left: -24px;
     margin-right: 0px;
     font-family: cursive;
-    text-align: left;
+/*     text-align: left; */
     outline: none;
   }
 
@@ -528,11 +528,11 @@ background-color: skyblue;
     background: transparent;
     border-color: transparent;
     color: black;
-    font-size: 20px;
-    margin-left: 301px;
-    margin-right: -140px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: cursive;
-    text-align: right;
+/*     text-align: right; */
     outline: none;
   }
   .zoe, .shane, .thapelo{
@@ -701,7 +701,7 @@ background-color: skyblue;
 }
 .buttons {
 	display: inline;
-	padding-left: 30px;
+	padding-left: 0px;
 }
 }
 }
