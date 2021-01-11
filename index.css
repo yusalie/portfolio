@@ -796,9 +796,9 @@ background-color: skyblue;
   width: 157%;
 }
 .buttons {
-	display: inline;
-	    padding-left: 35%;
-    padding-right: 8%;
+	display: flex;
+	    padding-left: 78px;
+	width:100%;
 }
 }
 }
