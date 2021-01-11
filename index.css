@@ -483,8 +483,8 @@ background-color: skyblue;
 		font-size:8px;
 	}
     body {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 74px;
+    margin-right: 88px;
     margin-top: -38px;
     height: 115%;
 	    background-color: skyblue;
@@ -636,7 +636,7 @@ background-color: skyblue;
   padding: 5px;
 }
 .fab{
-  font-size: 40px;
+  font-size: 18px;
   color: black;
 }
 
