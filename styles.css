@@ -626,6 +626,9 @@ pre code {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .myself {
+    margin-left: 34%;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
