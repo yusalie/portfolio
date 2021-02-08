@@ -22,8 +22,9 @@ font-size: 141%;
 }
 
 .myself{
-  margin-left: 37%;
+  margin-left: 44%;
   border-radius: 100%;
+  height: 250px;
 }
 
 #about{
@@ -111,6 +112,23 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+
+#h1{
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 30px #fff, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6, 0 0 90px #ff4da6;
+  }
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -408,6 +426,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
+  font-size: 1.25rem;
+  padding: 6px;
 }
 
 h1, .h1 {
@@ -615,6 +635,7 @@ pre code {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+    padding-bottom: 7px;
   }
 }
 .row {
@@ -10193,8 +10214,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 30.5rem;
+    padding-top: 34rem;
+    padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
