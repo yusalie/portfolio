@@ -30,6 +30,9 @@ font-size: 141%;
   width: 100%;
 }
 
+.portfolio-item:hover{
+  opacity: 50%;
+}
 
 .work{
   padding: 5px;
