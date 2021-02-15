@@ -22,6 +22,11 @@ background-color: #fed136;
 font-size: 141%;
 }
 
+.contact {
+    color: blue;
+    padding-top: 10px;
+}
+
 .icons{
   margin-left: 34%;
 }
