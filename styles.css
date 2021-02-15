@@ -10192,18 +10192,17 @@ img::-moz-selection {
 }
 header.masthead {
   height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/abstract-computing-network-concept-1024x634.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: 161vh;
-  width: 146%;
+  background-size: cover;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10223,10 +10222,10 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
