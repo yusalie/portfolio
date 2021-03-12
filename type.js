@@ -13,6 +13,6 @@ function writeTxt() {
   if (j < h2.length) {
     document.getElementById("h2").innerHTML += h2.charAt(j);
     j++;
-    setTimeout(writeTxt, txtSpd2);
+    setTimeout(writeTxt, txtpd2);
   }
 }

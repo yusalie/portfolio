@@ -16,19 +16,29 @@
   padding-top: 10px;
 }
 
+.percent{
+  position: absolute;
+  margin-left: -90px;
+  margin-top: 50px;
+  z-index: -1;
+  font-size: 30px;
+  color: #fed136;
+
+}
+
+.fa-4x:hover{
+  opacity: 0%;
+  transition: all 0.3s ease;
+}
+
 .button{
-  border-radius: 10%;
-background-color: #fed136;
-font-size: 141%;
+  border-radius: 0%;
+    background-color: #addcd8;
+    font-size: 100%;
 }
 
-.contact {
-    color: blue;
-    padding-top: 10px;
-}
-
-.icons{
-  margin-left: 34%;
+.btn-dark:hover{
+  background-color: blue;
 }
 
 .myself{
@@ -37,6 +47,11 @@ font-size: 141%;
   margin: 0 auto;
   object-fit: contain;
   width: 100%;
+}
+
+.icons{
+  margin-right: 34%;
+  justify-content: center;
 }
 
 .portfolio-item:hover{
@@ -4027,7 +4042,7 @@ input[type=button].btn-block {
   display: block;
 }
 
-.navbar {
+/. {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -8866,6 +8881,7 @@ button.bg-dark:focus {
   .mb-lg-0,
 .my-lg-0 {
     margin-bottom: 0 !important;
+    margin-left: 34%;
   }
 
   .ml-lg-0,
