@@ -2189,7 +2189,7 @@ select.form-control[size], select.form-control[multiple] {
 }
 
 textarea.form-control {
-  height: auto;
+  height: 144px;
 }
 
 .form-group {
