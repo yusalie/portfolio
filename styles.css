@@ -30,11 +30,6 @@
 
 }
 
-.fa-4x:hover{
-  opacity: 0%;
-  transition: all 0.3s ease;
-}
-
 .button{
   border-radius: 0%;
     background-color: #addcd8;
