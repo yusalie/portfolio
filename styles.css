@@ -16,6 +16,10 @@
   padding-top: 10px;
 }
 
+.rate{
+  color: gold;
+}
+
 .percent{
   position: absolute;
   margin-left: -90px;
