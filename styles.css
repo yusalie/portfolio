@@ -20,6 +20,10 @@
   background-color: #000;
 }
 
+.cerName{
+  font-size: 1.2rem;
+}
+
 #certificate {
   padding: 0% 0% 24% 30%;
 }
