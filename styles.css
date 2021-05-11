@@ -16,6 +16,14 @@
   padding-top: 10px;
 }
 
+#certificates{
+  background-color: #000;
+}
+
+#certificate {
+  padding: 0% 0% 24% 30%;
+}
+
 .rating{
   color: gold;
 }
