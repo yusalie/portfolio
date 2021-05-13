@@ -20,6 +20,21 @@
   background-color: #000;
 }
 
+.testrow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  justify-content: center;
+}
+
+.certrow{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  justify-content: center;
+
 .cerName{
   font-size: 1.2rem;
 }
