@@ -1,7 +1,7 @@
 let i = 0;
 let j = 0;
-let h1 = 'Welcome To my website!';
-let h2 = 'My name is Yusuf Salie'
+let h1 = Yusuf Salie';
+let h2 = 'Aspiring back-end developer'
 let txtSpd = 50;
 let txtpd2 = 1000*10;
 function writeTxt() {
