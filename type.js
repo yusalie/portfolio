@@ -3,7 +3,7 @@ let j = 0;
 let h1 = "Yusuf Salie";
 let h2 = "Aspiring back-end developer";
 let txtSpd = 50;
-let txtpd2 = 1000*10;
+let txtpd2 = 10*10;
 function writeTxt() {
   if (i < h1.length) {
     document.getElementById("h1").innerHTML += h1.charAt(i);
