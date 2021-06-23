@@ -28,8 +28,8 @@
   border-right: 16px solid #FFD700;
   border-left: 16px solid #FFD700;
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
+  width: 150px;
+  height: 150px;
   animation: spin 2s linear infinite;
 }
 
