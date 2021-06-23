@@ -26,8 +26,9 @@
 
 .loader {
   border-right: 5px solid #FFD700;
-  border-left: 5px solid #FFD700;
-  border: 2px solid #000000;
+  border-bottom: 5px solid #001D4A;
+  border-left: 5px solid #E8E9EB;
+  border-top: 5px solid #A31621;
   border-radius: 50%;
   width: 100px;
   height: 100px;
