@@ -14,7 +14,6 @@
 #projects{
   background-color: black;
   padding-top: 10px;
-  height: 100vh;
 }
 
 #certificates{
@@ -38,14 +37,6 @@
 }
 .cerName{
   font-size: 1.2rem;
-}
-
-#skills {
-    height: 100vh;
-}
-
-#testimonial {
-    height: 100vh;
 }
 
 #certificate {
