@@ -10,6 +10,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+section#contact {
+    height: 100vh;
+}
 
 #projects{
   background-color: black;
